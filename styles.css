@@ -1,0 +1,96 @@
+.logo-background {
+	background-color: #eee;
+	height: 210px;
+}
+
+.horizontal-ruler {
+	border-top-color: black !important;
+    width: 75%;
+}
+
+.slide-left {
+  width:100%;
+  overflow:hidden;
+}
+.slide-left {
+  animation: slide-left 2s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.label-deco {
+	font-size: xx-large;
+    padding: 5px;
+    margin-top: 15px;
+	width: auto;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.reference {
+	border-style: solid;
+    border-width: thin;
+    padding: 4px;
+    background-color: #d1c9c9;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.product-cost {
+	font-style: italic;
+    font-weight: 700;
+}
+
+.product-border {
+    border-style: solid;
+    width: fit-content;
+    border-width: thin;
+}
+
+.product-description {
+	background-color: #cdcdcd;
+    border-radius: 3px;
+    width: 50%;
+    margin: 0 auto;
+}
