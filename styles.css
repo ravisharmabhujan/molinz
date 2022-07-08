@@ -16,18 +16,7 @@
   animation: slide-left 2s;
 }
 
-@keyframes slide-left {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
+/*set div title header*/
 .label-deco {
 	font-size: xx-large;
     padding: 5px;
